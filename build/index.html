@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Remi</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<div class="tagline">
+			<!-- <img class="tagline__icon" src="./img/svg/sprite.stack.svg#ticket-percent" alt="Icon-percent"> -->
+			<svg class="icon icon--percent">
+				<use href="./img/svgsprite/sprite.symbol.svg#ticket-percent"></use>
+			</svg>
+			<div class="tagline__desc">
+				30% off storewide&#160;&#8212; Limited time!
+			</div>
+			<div class="tagline__link">
+				<a href="#!">
+					<svg class="icon icon--ShopNow">
+						<use href="./img/svgsprite/sprite.symbol.svg#ShopNow"></use>
+					</svg>
+					<svg class="icon icon--arrow-right">
+						<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+					</svg>
+				</a>
+			</div>
+			<button class="tagline__close">
+				<svg class="icon icon--close">
+					<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+				</svg>
+			</button>
+		</div>
+		<nav class="nav">
+			<div class="container">
+				<div class="nav__row">
+					<!-- <svg class="icon icon--r">
+                <use href="./img/svgsprite/sprite.symbol.svg#r"></use>
+            </svg> -->
+					<a href="#!" class="nav__brend brend">Remi</a>
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#!" class="nav__link">На&#160;главную</a>
+						</li>
+
+						<li class="nav__item">
+							<a href="#!" class="nav__link">Работы</a>
+						</li>
+
+						<li class="nav__item">
+							<a href="#!" class="nav__link">Аренда</a>
+						</li>
+
+						<li class="nav__item">
+							<a href="#!" class="nav__link">Контакты</a>
+						</li>
+						<!-- <li class="nav__item">
+                   
+                </li> -->
+					</ul>
+					<div class="block_tel"><span>тел:</span> <a href="#!" class="nav__link tel">+380 67 5682200</a></div>
+					<div class="nav__btns">
+						<div class="nav__btn nav__lang">
+							<h5 class="lang">RU</h5>
+						</div>
+						<button class="nav__btn">
+							<svg class="icon icon--search">
+								<use href="./img/svgsprite/sprite.symbol.svg#search"></use>
+							</svg>
+						</button>
+						<button class="nav__btn">
+							<svg class="icon icon--user">
+								<use href="./img/svgsprite/sprite.symbol.svg#user"></use>
+							</svg>
+						</button>
+						<!-- <button class="nav__btn">
+                    <svg class="icon icon--bag">
+                        <use href="./img/svgsprite/sprite.symbol.svg#bag"></use>
+                    </svg>
+                    <span class="nav__btn-count">2</span>
+                </button> -->
+					</div>
+				</div>
+			</div>
+		</nav>
+		<header class="header">
+			<div class="header__fon">
+				<div class="left__conteiner">
+					<!-- <h2 class="h2">Там где Remi</h2> -->
+					<h2><span class="black">Из&#160;темноты&#160;&#8212; </span> <span class="white">качественный свет</span></h2>
+					<h2><span class="black">Из&#160;шума&#160;&#8212; </span> <span class="white">качественный звук</span></h2>
+					<h2><span class="black">Для работы&#160;&#8212; </span> <span class="white">конференц зал</span></h2>
+					<h2><span class="black">Для отдыха&#160;&#8212; </span> <span class="white">концертный зал</span></h2>
+				</div>
+				<!-- <div class="rigth__conteiner">
+
+        </div> -->
+				<svg class="icon--r">
+					<use href="./img/svgsprite/sprite.symbol.svg#r"></use>
+				</svg>
+			</div>
+		</header>
+		<section class="slider">
+			<div class="conteiner">
+				<div class="slider-item">
+					<picture>
+						<source srcset="./img/renty/1.webp 1x, ./img/renty/1@2x.webp 2x" type="image/webp" />
+						<source srcset="./img/renty/1.jpg 1x, ./img/renty/1@2x.jpg 2x" type="image/jpeg" />
+						<img src="./img/renty/1.jpg" alt="1.jpg" />
+					</picture>
+
+					<div class="slide-item__name">
+						<h4>
+							Название мероприятия
+						</h4>
+						<h5>
+							дата проведения
+						</h5>
+					</div>
+					<div class="slide-item__text">
+						<p>
+							Описание помещения.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus cumque nihil inventore at, quasi quisquam tenetur eius perspiciatis
+							neque quibusdam deleniti ipsa suscipit corporis eligendi fuga alias eum asperiores? Doloremque!
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <main class="docs">
+		<section>
+			<div class="container">
+				<h1 class="title-1">Gulp сборка для верстки сайтов</h1>
+				<p>Понятная Gulp сборка которая ускорит твою верстку в разы.</p>
+				<p>Документация по возможностям с примерами использования <a href="./docs.html">здесь</a>.</p> -->
+
+		<!-- Теги img теперь можно писать в несколько строк, ошибки не будет -->
+		<!-- <picture>
+<source srcset="./img/project-02.webp 1x, ./img/project-02@2x.webp 2x" type="image/webp">
+<source srcset="./img/project-02.jpg 1x, ./img/project-02@2x.jpg 2x" type="image/jpeg">
+<img src="./img/project-02.jpg" alt="">
+</picture>
+
+			</div>
+		</section>
+	</main> -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__copyright">
+					<p>Сборка сделана в&#160;школе <a href="https://webcademy.ru" target="_blank">webcademy.ru</a></p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

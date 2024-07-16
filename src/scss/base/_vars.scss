@@ -1,0 +1,38 @@
+:root {
+	--container-width: 1184px;
+	--container-padding: 32px;
+
+	--font-main:'Inter', sans-serif;
+	--font-accent: 'Poppins', sans-serif;
+	--font-nav: 'Space Grotesk', sans-serif;
+
+	--page-bg: #fff;
+	--text-color: #000;
+	--accent: #ac182c;
+	--fon:#6995de;
+	// --link-color: #4682B4;
+	--link-color:#0D3C7F;
+	--link-color2:rgba(13, 60, 127, 0.8267682072829132);
+	--salat:#b9f349;
+	--salat-hover:rgb(17, 193, 90);
+    // сине-серый color:#223941;
+    // синий-зеленоватый color:#0c5672;
+    // желто горячий yellow1 color:#d18e02;
+    // yellow2 color:#ffda00;
+    // yellow3 color:#ffcd00;
+    // +светло синий color:#6995de;
+    // +salat color: #b9f349;
+	--icon-menu:#1A86EB;
+
+	--yellow:#FFAB00;
+
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}

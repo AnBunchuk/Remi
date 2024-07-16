@@ -1,0 +1,13 @@
+.btn {
+    border-radius: 8px;
+    background-color: blue;
+    color: #fff;
+
+    &-medium {
+        padding: 12px 56px;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0, 4px; /*межбуквенный интервал*/
+        line-height: 1.77px; /*межстрочный интервал*/
+    }
+}
